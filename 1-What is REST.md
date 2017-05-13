@@ -1,6 +1,10 @@
 
 
 http://stackoverflow.com/questions/671118/what-exactly-is-restful-programming?rq=1
+https://martinfowler.com/articles/richardsonMaturityModel.html
+http://web.archive.org/web/20130116005443/http://tomayko.com/writings/rest-to-my-wife
+http://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm
+
 
 # Representational State Transfer (REST)
 #### Ultimately what REST is is just a series of rules in place for your server
@@ -11,6 +15,9 @@ http://stackoverflow.com/questions/671118/what-exactly-is-restful-programming?rq
  client sends a request, server sends a response
 
 2)Stateless server : 
+ Stateless
+
+ We next add a constraint to the client-server interaction: communication must be stateless in nature, as in the client-stateless-server (CSS) style of Section 3.4.3 (Figure 5-3), such that each request from client to server must contain all of the information necessary to understand the request, and cannot take advantage of any stored context on the server. Session state is therefore kept entirely on the client.
 Communicate statelessly
 As the load from the client increases on your server you start to add more servers to the mix and when 
 that happens now you get into a situation where the server may contain some information about the client that doesn't transfer from one 
