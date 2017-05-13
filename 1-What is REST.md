@@ -1,4 +1,7 @@
 
+
+http://stackoverflow.com/questions/671118/what-exactly-is-restful-programming?rq=1
+
 # Representational State Transfer (REST)
 #### Ultimately what REST is is just a series of rules in place for your server
 
